@@ -18,6 +18,13 @@ Python panda was created by Wes McKinney! He was
 * It’s purpose is to provide easily accessible and high performance data structures to use in Python
 * Python data structures (lists, strings, arrays, dicts) are good for data munging & preparation but not good for analysis & modeling
   * Munging: transforming and wrapping data
+* Interoperable with NumPy & SciPy (DataFrame has attributes ilke .dot)
+
+
+Term | Definition | Usage | Image Reference
+------------ | ------------- | ------------ | ------------
+Series | One dimensional array with axis labels | Supports both integer and label based indexing | ![series](https://image.slidesharecdn.com/slides-151008060416-lva1-app6892/95/pandas-powerful-data-analysis-tools-for-python-13-638.jpg?cb=1444284343)
+Data Frame | 2D size-mutable, heterogeneous, data structure with rows and columns | Primary pandas data structure | ![df](https://image.slidesharecdn.com/timetravelandtimeseriesanalysiswithpandasstatsmodels-160420171341/95/time-travel-and-time-series-analysis-with-pandas-statsmodels-4-638.jpg?cb=1461172451)
 
 ### Code Demo
 ```markdown
